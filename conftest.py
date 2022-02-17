@@ -42,6 +42,7 @@ def driver(browser, headless):
         driver.quit()
     elif browser == "Firefox":
         driver = geckodriver(headless)
+        driver.maximize_window()
         yield driver
         driver.quit()
     else:
