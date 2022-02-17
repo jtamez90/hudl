@@ -1,6 +1,9 @@
 # HUDL QA Project
-## Getting started
+This is a basic suite of tests that uses the Page Object Model for a login page. It is built to be scalable.
+From here we could add more intensive tests, such as verifying the password reset function works, etc.
+But for the purposes of this project, the automation tests are kept simple.
 
+## Getting started
 
 ### Requirements (Windows)
 - Python 3.8+ (download from https://www.python.org/downloads/release/python-3812/)

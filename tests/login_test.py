@@ -1,9 +1,4 @@
-"""
-Test cases for the login page.
-This is a basic suite of tests for a login page that is built using the Page Object Model to be scalable.
-From here we could add more intensive tests, such as verifying the password reset function works, etc.
-But for the purposes of this interview project, the automation tests are kept simple.
-"""
+"""Test cases for the login page."""
 
 import os
 from dotenv import load_dotenv
