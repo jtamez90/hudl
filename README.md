@@ -16,7 +16,7 @@ But for the purposes of this project, the automation tests are kept simple.
 ### Setup
 1. Install the requirements above.
 2. Clone the project repo into a folder of your choice.
-3. From the terminal, cd into where you cloned the 'hudl_practice' folder.
+3. From the terminal, cd into where you cloned the 'hudl' folder.
 4. Run `python -m venv venv` to create a virtual environment.
 5. Activate your virtual environment:
     - MacOS: Run `source venv/bin/activate` to enable the virtual environment.
@@ -24,7 +24,7 @@ But for the purposes of this project, the automation tests are kept simple.
     - When activated, your terminal prompt should be prefixed with `(venv)`.
     - To deactivate once done, simply run `deactivate`
 6. Run `pip install -r requirements.txt` to install the project dependencies.
-7. Create a .env file in the root folder of the project (i.e. 'hudl_practice') with 3 variables:
+7. Create a .env file in the root folder of the project (i.e. 'hudl') with 3 variables:
     - TEST_USERNAME=<your-test-username-here>
     - TEST_PASSWORD=<your-test-password-here>
     - BASE_URL=https://www.hudl.com
@@ -32,7 +32,7 @@ But for the purposes of this project, the automation tests are kept simple.
 
 ### Usage
 When the virtual environment is activated (see setup #5), pytest can be run from the 
-terminal in the 'hudl_practice' folder. The project currently supports 2 optional parameters:
+terminal in the 'hudl' folder. The project currently supports 2 optional parameters:
 - `--browser`
     - default is 'Chrome' but accepts `Chrome` or `Firefox` as an argument
 - `--headless` 
